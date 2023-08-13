@@ -15,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 @Configuration
 public class MyDataRestConfig implements RepositoryRestConfigurer {
 
-    private String theAllowedOrgins = "http://localhost:3000";
+    private String theAllowedOrgins = "http://react-library-bucket.s3-website.ap-south-1.amazonaws.com"
 
     @Override
     public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config,
